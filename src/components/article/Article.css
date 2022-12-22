@@ -1,0 +1,60 @@
+.gpt3__article {
+  height: 100%;
+}
+
+.gpt3__article-content {
+  font-family: var(--font-family);
+  color: white;
+  background-color: #042c54;
+}
+.gpt3__article-image img {
+  height: 100%;
+  width: 100%;
+}
+.gpt3__article-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0 0;
+  height: 100%;
+}
+.gpt3__article-image {
+  flex: 1;
+  flex-grow: 1;
+  height: 100%;
+}
+.gpt3__article-content {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-grow: 1;
+  min-height: 235px;
+}
+.gpt3__article-content p {
+  margin-bottom: 1rem;
+}
+.gpt3__article-content h3 {
+  margin: 1rem 0;
+}
+@media screen and (max-width: 768px) {
+  .gpt3__article-content {
+    padding: 1rem 1rem;
+    min-height: 200px;
+  }
+  .gpt3__article-content p {
+    font-size: 14px;
+  }
+  .gpt3__article-content h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .gpt3__article-content p {
+    font-size: 10px;
+    margin-bottom: 1rem;
+  }
+  .gpt3__article-content h3 {
+    font-size: 14px;
+    margin: 1rem 0;
+  }
+}

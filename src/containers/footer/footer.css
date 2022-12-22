@@ -1,0 +1,102 @@
+.gpt3__footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  background-color: var(--color-footer);
+}
+.gpt3__footer-heading {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 90%;
+}
+
+.gpt3__footer-heading h1.gradient__text {
+  display: flex;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 75px;
+}
+.gpt3__footer-button {
+  margin-bottom: 6rem;
+}
+.gpt3__footer-button button {
+  width: 218px;
+  height: 65px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.gpt3__footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--font-family);
+  color: #ffffff;
+}
+.gpt3__footer-wgpt3,
+.gpt3__footer-links,
+.gpt3__footer-company,
+.gpt3__footer-getintouch {
+  width: 22%;
+  padding: 1rem 1rem;
+  line-height: 40px;
+  font-size: 12px;
+}
+.gpt3__footer-wgpt3 p {
+  line-height: 20px;
+}
+.gpt3__footer-rights {
+  display: flex;
+  margin: 2rem 0;
+  font-family: var(--font-family);
+  color: #ffffff;
+  font-size: 10px;
+}
+@media screen and (max-width: 768px) {
+  .gpt3__footer-container {
+    margin-top: 1rem;
+    padding: 2rem 3rem;
+    background-color: var(--color-footer);
+  }
+  .gpt3__footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: var(--font-family);
+    color: #ffffff;
+  }
+  .gpt3__footer-wgpt3,
+  .gpt3__footer-links,
+  .gpt3__footer-company,
+  .gpt3__footer-getintouch {
+    width: 45%;
+    padding: 1rem 1rem;
+    line-height: 30px;
+    font-size: 10px;
+  }
+  .gpt3__footer-rights {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gpt3__footer-heading h1.gradient__text {
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+  .gpt3__footer-button button {
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
